@@ -1,0 +1,133 @@
+body{
+  background-color: #1A202C;  
+}
+.nav{
+    color: #fff;
+    display: flex;
+    gap: 40px;
+    padding: 40px 140px;
+}
+.Logo{
+    padding: 40px 120px;
+    height: 26px ;
+    width: 144px;
+}
+.display{
+    display: flex;
+}
+.btn{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin-left: 116px;
+    font-size: 16px;
+}
+.btn2{
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    background-color: #7c5cfc;
+    padding: 14px 24px ;
+    color: #fff;
+}
+.title{
+    color: #fff;
+    margin-left: 40px;
+    font-size: 72px;
+}
+.expense{
+    font-size: 72px;
+    color: #fff;
+}
+.center{
+    margin-left: 550px;
+    margin-top: 96px;
+}
+.text{
+    color: #90A3BF;
+    margin-left: 600px;
+    font-size: 24px;
+}
+.getdemo{
+    background-color: #7c5cfc;
+    color: #fff;
+    border-radius: 30px;
+    padding: 14px 24px;
+    font-size: 16px;
+    margin-left: 700px;
+}
+.pricing{
+    background-color: #1A202C;
+    color: #fff;
+    border-radius: 30px;
+    padding: 14px 24px;
+    font-size: 16px
+}
+.dashboard{
+    position: relative;
+    bottom: 0;
+    left: 250px;
+}
+.text-muted{
+    margin-left: 50px;
+}
+.icon{
+    display: none;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .nav{
+        display: none;
+    }  
+    .center{
+    width: 319px;
+       margin-left: 28px;
+       font-size: 36px;
+    }
+    .title{
+        margin-left: 0;
+    font-size: 36px;
+    }
+    .expense{
+        font-size: 36px;
+    }
+    .text{
+        margin-left: 28px;
+        width: 200px;
+        font-size: 14px;
+    }
+    .div{
+      display: block;
+      margin-left: 28px; 
+    }
+    .getdemo{
+        margin-left: 0;
+        padding: 7px 48px;
+        border: none;
+    }
+    .pricing{
+        background-color: transparent;
+        border: none;
+        padding: 7px 70px;
+    }
+    .Logo{
+        padding: 32px 28px;
+    }
+    .text-muted{
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .icon{
+        display: block;
+        width: 16px;
+        height: 6.98px;
+        padding-top: 40px;
+        margin-left: 30px;
+    }
+ .img{
+     width: 319px;
+     height: 192px;
+ }
+ .dashboard{
+    padding-right: 200px;
+ }
+}
