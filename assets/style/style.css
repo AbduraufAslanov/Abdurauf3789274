@@ -63,7 +63,7 @@ body{
     padding: 14px 24px;
     font-size: 16px
 }
-.dashboard{
+.img{
     position: relative;
     bottom: 0;
     left: 250px;
@@ -126,8 +126,8 @@ body{
  .img{
      width: 319px;
      height: 192px;
- }
- .dashboard{
-    padding-right: 200px;
+position: absolute;
+left: 0;
+top: 604px;
  }
 }
